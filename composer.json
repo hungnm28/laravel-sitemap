@@ -1,11 +1,11 @@
 {
-    "name": "spatie/laravel-sitemap",
+    "name": "hungnm28/laravel-sitemap",
     "description": "Create and generate sitemaps with ease",
     "keywords": [
         "spatie",
         "laravel-sitemap"
     ],
-    "homepage": "https://github.com/spatie/laravel-sitemap",
+    "homepage": "https://github.com/hungnm28/laravel-sitemap",
     "license": "MIT",
     "authors": [
         {
@@ -41,18 +41,18 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Sitemap\\SitemapServiceProvider"
+                "Hungnm28\\Sitemap\\SitemapServiceProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Sitemap\\": "src"
+            "Hungnm28\\Sitemap\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Sitemap\\Test\\": "tests"
+            "Hungnm28\\Sitemap\\Test\\": "tests"
         }
     },
     "minimum-stability": "dev",
